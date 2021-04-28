@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c6b7acc-392c-47ba-a36f-ce75a2f4dda5" name="Default Changelist" comment="" />
+    <list default="true" id="1c6b7acc-392c-47ba-a36f-ce75a2f4dda5" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/OrderFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_27_091434_create_orders_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_27_121143_create_sessions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/checkout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Brand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/BrandFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BrandFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_27_065229_create_brands_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_27_065229_create_brands_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_27_065245_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_27_065245_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +31,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -129,11 +153,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1rhWKRPHRZrfc9uioZXRrI6xPJl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -158,11 +187,35 @@
       <updated>1619428738166</updated>
       <workItem from="1619428758670" duration="58000" />
       <workItem from="1619428883323" duration="660000" />
-      <workItem from="1619429563762" duration="12657000" />
+      <workItem from="1619429563762" duration="43937000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1619506531270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619506531270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>
