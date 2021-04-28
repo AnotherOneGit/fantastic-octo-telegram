@@ -1,5 +1,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+@if(session('status'))
+    <div class="alert alert-success">
+        {{ session('status') }}
+    </div>
+@endif
 <div class="container">
     <table class="table">
         <thead>
@@ -19,9 +24,12 @@
                 <td>{{ $product->price }}€</td>
                 <td>
                     <form action="{{ route('checkout', $product) }}" method="get">
-                        <button type="submit" class="btn" {{ in_array($product->id, $session) ? 'disabled' : null }} >Buy</button>
+                        <button type="submit"
+                                class="btn btn-success" {{ in_array($product->id, $session) ? 'disabled' : null }} >
+                            Buy
+                        </button>
                     </form>
-                    <button type="submit" class="btn">Buy Now</button>
+                    {{--                    <button type="submit" class="btn">Buy Now</button>--}}
                 </td>
             </tr>
         @endforeach

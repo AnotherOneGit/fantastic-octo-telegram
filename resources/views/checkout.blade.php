@@ -3,11 +3,13 @@
 <div class="container">
     <h1>Checkout</h1>
     @forelse($products as $product)
-        {{ $product->name }} - {{ $product->price }}<hr>
+        {{ $product->name }} - {{ $product->price }}€
+        <hr>
     @empty
         <p>Cart is empty</p>
     @endforelse
-    <form action="">
-
+    Total product value: {{ array_sum(array_column($products->toArray(), 'price')) }}€
+    <form action="/confirmation">
+        <button class="btn btn-success">Buy Now</button>
     </form>
 </div>

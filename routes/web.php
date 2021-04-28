@@ -24,3 +24,7 @@ Route::get('/products', [ProductController::class, 'index']);
 Route::get('/checkout/{product}', [OrderController::class, 'checkout'])->name('checkout');
 
 Route::get('/order', [OrderController::class, 'order']);
+
+Route::get('/confirmation', [OrderController::class, 'confirmation']);
+
+Route::post('/confirmation', [OrderController::class, 'confirm']);
